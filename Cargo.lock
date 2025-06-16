@@ -4650,12 +4650,6 @@ dependencies = [
 
 [[package]]
 name = "hex-literal"
-version = "0.4.1"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "6fe2267d4ed49bc07b63801559be28c718ea06c4738b7a03c94df7386d2cde46"
-
-[[package]]
-name = "hex-literal"
 version = "1.0.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "bcaaec4551594c969335c98c903c1397853d4198408ea609190f420500f6be71"
@@ -6803,7 +6797,7 @@ dependencies = [
  "arbitrary",
  "bincode",
  "hex",
- "hex-literal 0.4.1",
+ "hex-literal",
  "pessimistic-proof-core",
  "rand 0.9.1",
  "rs_merkle",
@@ -6828,7 +6822,7 @@ dependencies = [
  "arbitrary",
  "bincode",
  "hex",
- "hex-literal 0.4.1",
+ "hex-literal",
  "rand 0.9.1",
  "rs_merkle",
  "semver 1.0.26",
@@ -6858,7 +6852,7 @@ dependencies = [
  "ecdsa-proof-lib",
  "ethers-signers",
  "hex",
- "hex-literal 0.4.1",
+ "hex-literal",
  "insta",
  "lazy_static",
  "pessimistic-proof",
@@ -10412,7 +10406,7 @@ dependencies = [
  "agglayer-primitives 0.6.0 (git+https://github.com/agglayer/interop.git?tag=v0.7.0)",
  "agglayer-tries 0.6.0 (git+https://github.com/agglayer/interop.git?tag=v0.7.0)",
  "arbitrary",
- "hex-literal 1.0.0",
+ "hex-literal",
  "serde",
  "serde_with",
  "sha2",
@@ -10426,7 +10420,7 @@ source = "git+https://github.com/agglayer/interop.git?tag=v0.7.1#1411f113c891dd2
 dependencies = [
  "agglayer-primitives 0.6.0 (git+https://github.com/agglayer/interop.git?tag=v0.7.1)",
  "agglayer-tries 0.6.0 (git+https://github.com/agglayer/interop.git?tag=v0.7.1)",
- "hex-literal 1.0.0",
+ "hex-literal",
  "serde",
  "serde_with",
  "sha2",
