@@ -17,7 +17,7 @@ fail = { workspace = true, features = ["failpoints"] }
 futures.workspace = true
 hex.workspace = true
 http-body-util = "0.1.2"
-hyper-util = { version = "0.1.10", features = ["client"] }
+hyper-util = { version = "0.1.18", features = ["client"] }
 hyper.workspace = true
 insta.workspace = true
 jsonrpsee = { workspace = true, features = ["full"] }
@@ -27,7 +27,7 @@ mockall.workspace = true
 parking_lot.workspace = true
 pin-project.workspace = true
 rand.workspace = true
-reqwest = "0.12.12"
+reqwest = "0.12.24"
 rstest.workspace = true
 serde = { workspace = true, features = ["derive"] }
 serde_json.workspace = true
@@ -38,7 +38,7 @@ tokio = { workspace = true, features = ["full"] }
 tokio-stream = "0.1.17"
 tokio-util.workspace = true
 toml.workspace = true
-tower-http = { version = "0.6.2", features = ["full"] }
+tower-http = { version = "0.6.7", features = ["full"] }
 tower.workspace = true
 tracing-capture = "0.1.0"
 tracing-subscriber = { workspace = true, features = ["env-filter", "json"] }
